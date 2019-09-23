@@ -50,7 +50,9 @@ class Form extends React.Component {
           value={this.state.userName}
           onChange={this.handleChange}
           placeholder="GitHub Username"
+          className="gh-username"
           required
+          style={{ textAlign: "center", margin: "5% 0 0 30%" }}
         />
         <button>Add Card</button>
       </form>
